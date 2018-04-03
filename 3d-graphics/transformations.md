@@ -18,7 +18,7 @@ Let's define:
 
 Pseudocode:
 ```
-   let matrix = matrix4x4
+   let matrix: matrix4x4
    matrix = d/a 0  0  0
              0  d  0  0
              0  0  s  t
