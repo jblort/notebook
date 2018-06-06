@@ -18,3 +18,11 @@ as if the plane was transparent.
 With the Lambert lighting model, one can use a directional light to cast the shadows. The directional light will not be taken into account
 in the lighting model and will not contribute to the plane's lighting.
 This solution actually doesn't impact the shadow rendering mode.
+
+## Soft shadows on iOS
+
+To have soft shadows on iOS, one need to use the `shadowRadius` property, with values in the range [1;3] being acceptable, and the `shadowSampleCount` property set to
+an acceptable value. By default it's set to `1` which means that the shadow radius won't have any effect as there's no sampling performed.
+Better results are obtained by defining a size for the shadow map as well. The default is `CGSizeZero` which lets SceneKit determines the best one, but it might not 
+always work well.
+
