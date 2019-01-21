@@ -6,6 +6,7 @@ SceneKit
 Lights in scenekit are supposed to be attached to nodes in every case. This holds true even for directional lights and ambient light.
 In the case of the latter, attaching an ambient light to anything but the scene root node has actually no effect. 
 
+SceneKit actually automatically adds an ambient light to a scene that has absolutely no lights. 
 
 ## Projecting shadows on a transparent plane
 
@@ -26,3 +27,6 @@ an acceptable value. By default it's set to `1` which means that the shadow radi
 Better results are obtained by defining a size for the shadow map as well. The default is `CGSizeZero` which lets SceneKit determines the best one, but it might not 
 always work well.
 
+## Shader modifiers quirks
+
+Unfortunately and to this day, there's no straightforward way of sending an array (e.g. `something[10];`) to a shader modifier.
