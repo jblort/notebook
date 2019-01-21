@@ -18,8 +18,8 @@ Use `o` (`O`) to insert a newline after (before) the current one and put the cur
 Use `ci` or `ca` to change section, coupled with key such as `w` (for word), `(` (for parenthesis), `"` (for quotes).
 
 ## Navigating
-Use <Ctrl-f> (<Ctrl-b>) to move forward (backward) a screen in the current file.
-Use <Ctrl-u> (<Ctrl-d>) to mode forward (backward) half a screen in the current file.
+Use `<Ctrl-f>` (`<Ctrl-b>`) to move forward (backward) a screen in the current file.
+Use `<Ctrl-u>` (`<Ctrl-d>`) to mode forward (backward) half a screen in the current file.
 Use `{` (`}`) to move backward (forward) a paragraph.
 Use `H` `M` `L` to navigate respectively to the top, middle, or bottom of the screen (excluding non-line part of the screen).
 
