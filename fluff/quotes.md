@@ -13,6 +13,9 @@ A list of interesting quotes
 "None of us learns in a vacuum; we all stand on the shoulders of giants such as Wirth and Knuth and thousands of others.  Lend your shoulders to building the future!"
 - Michael Abrash
 
+"Here's the secret to success in just two words: Ship it"
+- Michael Abrash
+
 "If someone has such a weak argument that they have to fall back on an infallible authority, that's usually a sign that they don't have a well-reasoned defense of their position.
 This goes double when they point to themselves as the infallible authority."
 - Dan Luu
